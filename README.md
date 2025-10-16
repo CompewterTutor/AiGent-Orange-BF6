@@ -7,7 +7,7 @@ AiGent-Orange-BF6 is a template repository to generate new Battlefield 6 Mod rep
 
 ## Support
 
-***Current version of the BF6 SDK is `1.0.1.0`***
+***Current version of the BF6 Portal SDK is `1.0.1.0`***
 
 ### Download SDK
 
