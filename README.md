@@ -17,10 +17,11 @@ AiGent-Orange-BF6 is a template repository to generate new Battlefield 6 Mod rep
 
 ### General
 The basic workflow is fairly simple:
-1. Read through the documentation and the official examples so you have an idea of what you're doing. Read through the documentation in the ```.llm``` folder. I've generated some helpful documentation 
+1. Read through the documentation and the official examples so you have an idea of what you're doing. You'll need the SDK, you can download it from https://portal.battlefield.com/bf6/experiences. Read through the documentation in the `.llm` folder. I've generated some helpful documentation, you can see what the files I've included are below.
 2. Write your project brief using the template I've included.
 3. Have your IDE generate a granular todo list that has phases that basically follow a semantic versioning roadmap.
-4. 
+4. Start development following guidelines in `.llm/dev_guidelines.md` (or your custom built instructions file you generate for your IDE using the script described below).
+5. Track of your progress in `.llm/todo.md` and `.llm/memory.md` or if you are using a memory MCP server you can use that instead. I've provided prompts to use either in the `.llm/prompts.md` file.
 
 ### VSCode CoPilot
 
