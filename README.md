@@ -2,7 +2,12 @@
 
 ## Description
 
-AiGent-Orange-BF6 is a template repository to generate new Battlefield 6 Mod repositories that are bootstrapped for LLM-assisted development as well as equipped with some useful documentation to refer to derived from official mod examples and the SDK itself.
+AiGent-Orange-BF6 is a template repository to generate new Battlefield 6 Mod repositories that are bootstrapped for LLM-assisted development as well as equipped with some useful documentation to refer to derived from official mod examples and the SDK itself. 
+
+
+## Support
+Current version of the BF6 SDK is `1.0.1.0`
+You can download the current SDK from https://portal.battlefield.com/bf6/experiences
 
 ## How To Use
 
@@ -17,10 +22,10 @@ AiGent-Orange-BF6 is a template repository to generate new Battlefield 6 Mod rep
 
 ### General
 The basic workflow is fairly simple:
-1. Read through the documentation and the official examples so you have an idea of what you're doing. You'll need the SDK, you can download it from https://portal.battlefield.com/bf6/experiences. Read through the documentation in the `.llm` folder. I've generated some helpful documentation, you can see what the files I've included are below.
-2. Write your project brief using the template I've included.
-3. Have your IDE generate a granular todo list that has phases that basically follow a semantic versioning roadmap.
-4. Start development following guidelines in `.llm/dev_guidelines.md` (or your custom built instructions file you generate for your IDE using the script described below).
+1. Read through the documentation and the official examples so you have an idea of what you're doing. Read through the markdown files in the `.llm` folder. I've generated some helpful documentation; you can see what the files I've included are for below. I'd start with the `.llm/common_checklist.md` to get a general idea of what it'll take to do your mod.
+2. Write your project brief using the template I've included. This is basically a description of your mod, your idea.the game type, the rules, etc.
+3. Have your IDE generate a granular todo list that has phases that basically follow a semantic versioning roadmap. You can use one of the prompts in `.llm/prompts.md` to do so.
+4. Start development following guidelines in `.llm/dev_guidelines.md` (or your custom built instructions file you generate for your IDE using the script described below). You can instruct your LLM to get started with a generic prompt in `.llm/prompts.md`
 5. Track of your progress in `.llm/todo.md` and `.llm/memory.md` or if you are using a memory MCP server you can use that instead. I've provided prompts to use either in the `.llm/prompts.md` file.
 
 ### VSCode CoPilot
